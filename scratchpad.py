@@ -1,10 +1,17 @@
 
-age =12
-if age >= 6 and age <= 11:
-  print('primary school')
+fib= 10
 
-elif age >= 12 and age <=18:
-  print('secondary school')
-  
-else:
-  print(age)
+a = 0
+b = 1
+c = 0
+count = 0
+while count < fib:
+    if c <= 1:
+    print(c)
+    count = count + 1
+    c = c + 1
+  else:
+    c = b + a
+    a = b
+    b = c
+    print(c)
