@@ -48,5 +48,5 @@ for item in grocery_history:
 
 print('Grand total: $' + format_price(grand_total))
 
-# other war using string concatination
+# other way using string concatination
 #print(str(item['number']) , str(item['name']) , "@ $" + format_price(item['price']), 'ea', '$'+ format(item_total))
